@@ -1,0 +1,16 @@
+.child {
+    border: 2px solid black;
+    background-color: aqua;
+    width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.parent {
+    border: 2px solid red;
+    display: flex;
+    height: 200px;
+}
+.two {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
